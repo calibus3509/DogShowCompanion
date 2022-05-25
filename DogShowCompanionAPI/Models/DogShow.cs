@@ -9,6 +9,7 @@
         public CivicAddress? Address { get; set; }
         public double EntryFee { get; set; }
         public double Distance { get; set; }
+        public List<DogShowClass>? Classes { get; set; }
 
     }
 }
